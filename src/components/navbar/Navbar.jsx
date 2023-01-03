@@ -1,3 +1,4 @@
+import * as React from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -18,6 +19,7 @@ const Navbar = () => {
                     <div className="item">
                         <span>USD</span>
                         {/* <KeyboardArrowDownIcon /> */}
+                        <img src="/img/arrow-down.svg" alt="" />
                     </div>
                     <div className="item">
                         <Link className='link' to="/products/1">Women</Link>
@@ -50,6 +52,7 @@ const Navbar = () => {
                         <PersonOutlineOutlinedIcon /> */}
                         <div className="cartIcon">
                             {/* <ShoppingCartOutlinedIcon /> */}
+                            <img src="/img/cart.svg" alt="" />
                             <span>0</span>
                         </div>
                     </div>

@@ -1,7 +1,8 @@
+import * as React from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Product from "./pages/Home/Product/Product"
-import Products from "./pages/Home/Products/Products"
+import Product from "./pages/Product/Product"
+import Products from "./pages/Products/Products"
 import Footer from "./components/footer/Footer"
 import Navbar from "./components/navbar/Navbar";
 import "./app.scss"
