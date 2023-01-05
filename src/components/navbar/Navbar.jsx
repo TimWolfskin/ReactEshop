@@ -1,9 +1,9 @@
 import * as React from 'react';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+// import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+// import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+// import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+// import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+// import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import "./Navbar.scss"
 import { Link } from 'react-router-dom'
 
@@ -14,11 +14,9 @@ const Navbar = () => {
                 <div className="left">
                     <div className="item">
                         <img src="/img/en.png" alt="" />
-                        {/* <KeyboardArrowDownIcon /> */}
                     </div>
                     <div className="item">
                         <span>USD</span>
-                        {/* <KeyboardArrowDownIcon /> */}
                         <img src="/img/arrow-down.svg" alt="" />
                     </div>
                     <div className="item">
@@ -48,10 +46,10 @@ const Navbar = () => {
                         <Link className='link' to="/">Stores</Link>
                     </div>
                     <div className="icons">
-                        {/* <SearchOutlinedIcon />
-                        <PersonOutlineOutlinedIcon /> */}
+                        <img src="/img/search.svg" alt="" />
+                        <img src="/img/user.svg" alt="" />
+                        <img src="/img/favourite.svg" alt="" />
                         <div className="cartIcon">
-                            {/* <ShoppingCartOutlinedIcon /> */}
                             <img src="/img/cart.svg" alt="" />
                             <span>0</span>
                         </div>
